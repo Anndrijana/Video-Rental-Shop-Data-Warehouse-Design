@@ -4,3 +4,17 @@
  
  :o: Na narednoj fotografiji prikazan je tipičan dimenzioni model, odnosno OLAP (zvezda) šema koja sadrži tabelu činjenica *Rental_fact* koja je povezana sa više tabela dimenzija.
  
+ ![29](https://user-images.githubusercontent.com/61964257/145215981-f37aa6bd-002b-49a9-8f79-2f49b4cff847.PNG)
+ 
+:o: Na pitanje ko odgovara grupa koja uključuje tabele dimenzija *Staff* i *Customer*, dok na pitanje gde se događaj desio odgovara grupa koju čini dimenzija *Store*. Tabela dimenzija *Date* jeste zapravo kalendar koji se koristi za obeležavanje i datuma zakupa, kao i datuma povratka i odgovara na pitanje kada. Grupa koja odgovara na pitanja šta, zašto i kako se desio događaj uključuje 3 dimenzije i to dimenzije *Film*, *Category* i *Actor* koje predstavljaju predmet iznajmljivanja.
+
+### :red_circle: Specifikacija zahtevanih mera
+
+:o: Tabela činjenica sadži neke numeričke tipove poslovnih pokazatelja koji na neki način održavaju uspeh i to su:
+1. *customer_rental_duration* - trajanje zakupa kupca u danima
+2. *customer_exceeded* - broj prekoračenih dana kupca u zavisnosti od dozvoljenog trajanja zakupa
+3. *customer_amount* - cena po iznajmljenom kupcu za određenog korisnika
+4. *customer_overdraft_amount* - prekoračen iznos cene ukoliko film nije vraćen u dogovorenom roku
+ 
+ 
+ 
